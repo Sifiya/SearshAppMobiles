@@ -7,3 +7,4 @@ webpack*
 
 #another development files
 frontend/*
+config.js
