@@ -1,1 +1,9 @@
 .idea
+
+#all nodejs modules
+node_modules/*
+package*
+webpack*
+
+#another development files
+frontend/*
