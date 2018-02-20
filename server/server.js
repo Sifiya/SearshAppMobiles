@@ -8,6 +8,8 @@ function accept(request, response) {
 
   if (request.url.slice(0, 6) === '/data/') {
     setTimeout(() => {
+      response.setHeader('Access-Control-Allow-Origin', '*');
+
       file.serve(request, response)
     }, 100);
   } else {
